@@ -1,6 +1,6 @@
 {
   "name": "@codebuddy/eslint-config-vite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common eslint rules for Vite used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
