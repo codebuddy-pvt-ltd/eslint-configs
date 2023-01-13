@@ -1,15 +1,12 @@
 {
   "name": "@codebuddy/eslint-config-vite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common eslint rules for Vite used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
   "author": {
     "email": "developer@codebuddy.co",
     "name": "Codebuddy"
-  },
-  "scripts": {
-    "test": "test"
   },
   "keywords": [
     "eslint",
@@ -21,8 +18,8 @@
     "eslint": ">=8",
     "eslint-config-airbnb": ">=19.0.4",
     "eslint-config-prettier": ">=8.6.0",
-    "eslint-plugin-import": ">=2.26.0",
-    "eslint-plugin-jsx-a11y": ">=6.7.0",
+    "eslint-plugin-import": ">=2.27.4",
+    "eslint-plugin-jsx-a11y": ">=6.7.1",
     "eslint-plugin-prettier": ">=4.2.1",
     "eslint-plugin-promise": ">=6.1.1",
     "eslint-plugin-react": ">=7.32.0"

@@ -1,36 +1,39 @@
 lockfileVersion: '6.0'
 
-dependencies:
-  '@typescript-eslint/eslint-plugin':
-    specifier: '>=5.48.1'
-    version: 5.48.1(@typescript-eslint/parser@5.48.1)(eslint@8.31.0)(typescript@4.9.4)
-  '@typescript-eslint/parser':
-    specifier: '>=5.48.1'
-    version: 5.48.1(eslint@8.31.0)(typescript@4.9.4)
-  eslint:
-    specifier: '>=8'
-    version: 8.31.0
-  eslint-config-airbnb:
-    specifier: '>=19.0.4'
-    version: 19.0.4(eslint-plugin-import@2.27.2)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.0)(eslint@8.31.0)
-  eslint-config-prettier:
-    specifier: '>=8.6.0'
-    version: 8.6.0(eslint@8.31.0)
-  eslint-plugin-import:
-    specifier: '>=2.26.0'
-    version: 2.27.2(@typescript-eslint/parser@5.48.1)(eslint@8.31.0)
-  eslint-plugin-jsx-a11y:
-    specifier: '>=6.7.0'
-    version: 6.7.1(eslint@8.31.0)
-  eslint-plugin-prettier:
-    specifier: '>=4.2.1'
-    version: 4.2.1(eslint-config-prettier@8.6.0)(eslint@8.31.0)(prettier@2.8.2)
-  eslint-plugin-promise:
-    specifier: '>=6.1.1'
-    version: 6.1.1(eslint@8.31.0)
-  eslint-plugin-react:
-    specifier: '>=7.32.0'
-    version: 7.32.0(eslint@8.31.0)
+importers:
+
+  packages/eslint-config-vite:
+    dependencies:
+      '@typescript-eslint/eslint-plugin':
+        specifier: '>=5.48.1'
+        version: 5.48.1(@typescript-eslint/parser@5.48.1)(eslint@8.31.0)(typescript@4.9.4)
+      '@typescript-eslint/parser':
+        specifier: '>=5.48.1'
+        version: 5.48.1(eslint@8.31.0)(typescript@4.9.4)
+      eslint:
+        specifier: '>=8'
+        version: 8.31.0
+      eslint-config-airbnb:
+        specifier: '>=19.0.4'
+        version: 19.0.4(eslint-plugin-import@2.27.4)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.0)(eslint@8.31.0)
+      eslint-config-prettier:
+        specifier: '>=8.6.0'
+        version: 8.6.0(eslint@8.31.0)
+      eslint-plugin-import:
+        specifier: '>=2.27.4'
+        version: 2.27.4(@typescript-eslint/parser@5.48.1)(eslint@8.31.0)
+      eslint-plugin-jsx-a11y:
+        specifier: '>=6.7.1'
+        version: 6.7.1(eslint@8.31.0)
+      eslint-plugin-prettier:
+        specifier: '>=4.2.1'
+        version: 4.2.1(eslint-config-prettier@8.6.0)(eslint@8.31.0)(prettier@2.8.2)
+      eslint-plugin-promise:
+        specifier: '>=6.1.1'
+        version: 6.1.1(eslint@8.31.0)
+      eslint-plugin-react:
+        specifier: '>=7.32.0'
+        version: 7.32.0(eslint@8.31.0)
 
 packages:
 
@@ -584,7 +587,7 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.27.2)(eslint@8.31.0):
+  /eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.27.4)(eslint@8.31.0):
     resolution: {integrity: sha512-xaX3z4ZZIcFLvh2oUNvcX5oEofXda7giYmuplVxoOg5A7EXJMrUyqRgR+mhDhPK8LZ4PttFOBvCYDbX3sUoUig==}
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
@@ -593,13 +596,13 @@ packages:
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 8.31.0
-      eslint-plugin-import: 2.27.2(@typescript-eslint/parser@5.48.1)(eslint@8.31.0)
+      eslint-plugin-import: 2.27.4(@typescript-eslint/parser@5.48.1)(eslint@8.31.0)
       object.assign: 4.1.4
       object.entries: 1.1.6
       semver: 6.3.0
     dev: false
 
-  /eslint-config-airbnb@19.0.4(eslint-plugin-import@2.27.2)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.0)(eslint@8.31.0):
+  /eslint-config-airbnb@19.0.4(eslint-plugin-import@2.27.4)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.0)(eslint@8.31.0):
     resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -610,8 +613,8 @@ packages:
       eslint-plugin-react-hooks: ^4.3.0
     dependencies:
       eslint: 8.31.0
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.27.2)(eslint@8.31.0)
-      eslint-plugin-import: 2.27.2(@typescript-eslint/parser@5.48.1)(eslint@8.31.0)
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.27.4)(eslint@8.31.0)
+      eslint-plugin-import: 2.27.4(@typescript-eslint/parser@5.48.1)(eslint@8.31.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.31.0)
       eslint-plugin-react: 7.32.0(eslint@8.31.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.31.0)
@@ -667,8 +670,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-import@2.27.2(@typescript-eslint/parser@5.48.1)(eslint@8.31.0):
-    resolution: {integrity: sha512-/S1QaM52PzKy1C4c5Sw7hB6glROSUpMZ8RVREVC4se7z4AlyDxv0kU7uWkHc8aIVNb19oz86z7c6vdtuKUwLvw==}
+  /eslint-plugin-import@2.27.4(@typescript-eslint/parser@5.48.1)(eslint@8.31.0):
+    resolution: {integrity: sha512-Z1jVt1EGKia1X9CnBCkpAOhWy8FgQ7OmJ/IblEkT82yrFU/xJaxwujaTzLWqigewwynRQ9mmHfX9MtAfhxm0sA==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -692,6 +695,7 @@ packages:
       minimatch: 3.1.2
       object.values: 1.1.6
       resolve: 1.22.1
+      semver: 6.3.0
       tsconfig-paths: 3.14.1
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
