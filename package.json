@@ -1,0 +1,14 @@
+{
+  "name": "codebuddy-eslint-configs",
+  "version": "1.0.0",
+  "description": "Common eslint rules used within Codebuddy",
+  "license": "MIT",
+  "author": {
+    "email": "developer@codebuddy.co",
+    "name": "Codebuddy"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}

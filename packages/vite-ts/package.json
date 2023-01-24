@@ -1,6 +1,6 @@
 {
-  "name": "@codebuddy/eslint-config-vite",
-  "version": "1.0.2",
+  "name": "@codebuddy/eslint-config-vite-ts",
+  "version": "1.0.0",
   "description": "Common eslint rules for Vite used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
@@ -15,14 +15,7 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=5.48.1",
     "@typescript-eslint/parser": ">=5.48.1",
-    "eslint": ">=8",
-    "eslint-config-airbnb": ">=19.0.4",
-    "eslint-config-prettier": ">=8.6.0",
-    "eslint-plugin-import": ">=2.27.4",
-    "eslint-plugin-jsx-a11y": ">=6.7.1",
-    "eslint-plugin-prettier": ">=4.2.1",
-    "eslint-plugin-promise": ">=6.1.1",
-    "eslint-plugin-react": ">=7.32.0"
+    "eslint": ">=8"
   },
   "engines": {
     "node": ">=16"
@@ -34,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git/issues"
   },
-  "homepage": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README"
+  "homepage": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README",
+  "devDependencies": {
+    "@codebuddy/eslint-config-vite-js": "workspace:^1.0.0"
+  }
 }
