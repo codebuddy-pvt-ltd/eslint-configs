@@ -25,7 +25,7 @@ importers:
         specifier: '>=6.1.1'
         version: 6.1.1(eslint@8.31.0)
 
-  packages/vite-js:
+  packages/react:
     dependencies:
       eslint:
         specifier: '>=8'
@@ -41,7 +41,7 @@ importers:
         specifier: workspace:^1.0.0
         version: link:../base
 
-  packages/vite-ts:
+  packages/react-ts:
     dependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: '>=5.48.1'
@@ -53,9 +53,9 @@ importers:
         specifier: '>=8'
         version: 8.31.0
     devDependencies:
-      '@codebuddy/eslint-config-vite-js':
+      '@codebuddy/eslint-config-react':
         specifier: workspace:^1.0.0
-        version: link:../vite-js
+        version: link:../react
 
 packages:
 
