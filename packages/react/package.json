@@ -1,7 +1,7 @@
 {
   "name": "@codebuddy/eslint-config-react",
   "version": "1.0.0",
-  "description": "Common eslint rules for React with Vite used in Codebuddy",
+  "description": "Common ESLint rules for React with Vite used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
   "author": {

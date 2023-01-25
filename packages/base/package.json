@@ -1,7 +1,7 @@
 {
   "name": "@codebuddy/eslint-config-base",
   "version": "1.0.0",
-  "description": "Common JS eslint rules used in Codebuddy",
+  "description": "Common JS ESLint rules used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
   "author": {
