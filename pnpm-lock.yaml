@@ -38,7 +38,7 @@ importers:
         version: 7.32.1(eslint@8.31.0)
     devDependencies:
       '@codebuddy/eslint-config-base':
-        specifier: workspace:^1.0.0
+        specifier: workspace:^1.0.1
         version: link:../base
 
   packages/react-ts:
@@ -54,7 +54,7 @@ importers:
         version: 8.31.0
     devDependencies:
       '@codebuddy/eslint-config-react':
-        specifier: workspace:^1.0.0
+        specifier: workspace:^1.0.1
         version: link:../react
 
 packages:

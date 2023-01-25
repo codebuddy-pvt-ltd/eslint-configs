@@ -1,6 +1,6 @@
 {
   "name": "@codebuddy/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common ESLint rules for React with Vite used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README",
   "devDependencies": {
-    "@codebuddy/eslint-config-base": "workspace:^1.0.0"
+    "@codebuddy/eslint-config-base": "workspace:^1.0.1"
   }
 }
