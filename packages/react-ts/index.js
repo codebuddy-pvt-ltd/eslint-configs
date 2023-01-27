@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@codebuddy/eslint-config-vite-js',
+    '@codebuddy/eslint-config-react',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
   ],
