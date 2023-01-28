@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
-    '@codebuddy/eslint-config-base',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
+    '@codebuddy/eslint-config-base',
   ],
   parserOptions: {
     ecmaFeatures: {
