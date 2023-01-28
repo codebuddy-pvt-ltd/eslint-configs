@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
-    '@codebuddy/eslint-config-react',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
+    '@codebuddy/eslint-config-react',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
