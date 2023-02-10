@@ -32,4 +32,12 @@ module.exports = {
     ],
     'import/no-extraneous-dependencies': ['error', { devDependencies: ['vite.config.ts'] }],
   },
+  'settings': {
+    'import/resolver': {
+      'node': {
+        'extensions': ['.js', '.jsx', '.ts', '.tsx'],
+      },
+      'typescript': {},
+    },
+  },
 };
