@@ -1,0 +1,36 @@
+{
+  "name": "@codebuddy/eslint-config-next-ts",
+  "version": "1.0.0",
+  "description": "Common ESLINT rules for Next, TypeScript used in Codebuddy",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "email": "developer@codebuddy.co",
+    "name": "Codebuddy"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "next"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebuddy-pvt-ltd/eslint-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git/issues"
+  },
+  "homepage": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README",
+  "dependencies": {
+    "@codebuddy/eslint-config-react-ts": "workspace:^1.0.4"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5.48.1",
+    "@typescript-eslint/parser": ">=5.48.1",
+    "eslint": ">=8",
+    "next": ">=13"
+  }
+}
