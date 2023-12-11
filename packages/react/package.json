@@ -1,6 +1,6 @@
 {
   "name": "@codebuddy/eslint-config-react",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Common ESLint rules for React with Vite used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
@@ -14,11 +14,11 @@
   ],
   "peerDependencies": {
     "eslint": ">=8",
-    "eslint-plugin-jsx-a11y": ">=6.7.1",
-    "eslint-plugin-react": ">=7.32.1"
+    "eslint-plugin-jsx-a11y": ">=6.8.0",
+    "eslint-plugin-react": ">=7.33.2"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README",
   "dependencies": {
-    "@codebuddy/eslint-config-base": "workspace:^1.0.1"
+    "@codebuddy/eslint-config-base": "workspace:^"
   }
 }

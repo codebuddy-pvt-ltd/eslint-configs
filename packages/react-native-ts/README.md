@@ -1,7 +1,7 @@
-<h1 align="center">Welcome to @codebuddy/eslint-config-next-ts 👋</h1>
+<h1 align="center">Welcome to @codebuddy/eslint-config-react-native-ts 👋</h1>
 <p>
-  <a href="https://www.npmjs.com/package/@codebuddy/eslint-config-next-ts" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@codebuddy/eslint-config-next-ts.svg">
+  <a href="https://www.npmjs.com/package/@codebuddy/eslint-config-react-native-ts" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@codebuddy/eslint-config-react-native-ts.svg">
   </a>
   <img src="https://img.shields.io/badge/node-%3E%3D16-blue.svg" />
   <a href="https://github.com/codebuddy-pvt-ltd/eslint-configs#readme" target="_blank">
@@ -26,7 +26,7 @@
 ## Install
 
 ```sh
-yarn add -D @codebuddy/eslint-config-next-ts
+yarn add -D @codebuddy/eslint-config-react-native-ts
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ In your `.eslintrc.json` add the config like so:
 
 ```json
 {
-  "extends": ["@codebuddy/eslint-config-next-ts"]
+  "extends": ["@codebuddy/eslint-config-react-native-ts"]
 }
 ```
 

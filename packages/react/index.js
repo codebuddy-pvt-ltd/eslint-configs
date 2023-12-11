@@ -20,8 +20,11 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
+    'react/prop-types': 'off',
+    'react/no-unstable-nested-components': 'off',
     'react/react-in-jsx-scope': 'off',
-    'react/jsx-props-no-spreading': 0,
+    'react/require-default-props': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'import/no-extraneous-dependencies': ['error', { devDependencies: ['vite.config.js'] }],
   },
 };

@@ -27,7 +27,7 @@ module.exports = {
     ],
     'max-len': 'off',
     'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single'],
+    quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['error', 'always'],
     'object-curly-newline': 'off',
     'arrow-parens': 'off',
@@ -48,6 +48,6 @@ module.exports = {
       },
     ],
     'no-shadow': 'error',
-    'no-underscore-dangle': ['error', { allow: ['_id'] }],
+    'no-underscore-dangle': 'off',
   },
 };

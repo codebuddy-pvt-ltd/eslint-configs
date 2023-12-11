@@ -13,21 +13,63 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
+  overrides: [
+    {
+      files: ['*.stories.@(ts|tsx|js|jsx|mjs|cjs)'],
+      rules: {
+        'storybook/hierarchy-separator': 'error',
+        'storybook/default-exports': 'off',
+        'import/no-extraneous-dependencies': 'off',
+      },
+    },
+    {
+      files: ['**/mocks/*.ts'],
+      rules: {
+        'import/no-extraneous-dependencies': 'off',
+        'import/prefer-default-export': 'off',
+      },
+    },
+    {
+      files: ['*.@(queries|requests).ts'],
+      rules: {
+        'import/prefer-default-export': 'off',
+      },
+    },
+    {
+      files: ['**/utils/*.*'],
+      rules: {
+        'import/prefer-default-export': 'off',
+      },
+    },
+  ],
   rules: {
-    '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/no-explicit-any': 2,
+    '@typescript-eslint/no-empty-interface': 'off',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
     '@typescript-eslint/no-shadow': ['error'],
     'react/jsx-filename-extension': [
       1,
       {
-        extensions: ['.tsx'],
+        extensions: ['.tsx', '.stories.tsx'],
       },
     ],
     'import/extensions': [
       'error',
       'ignorePackages',
       {
+        js: 'never',
+        jsx: 'never',
         ts: 'never',
         tsx: 'never',
+        '': 'never',
       },
     ],
     'import/no-extraneous-dependencies': ['error', { devDependencies: ['vite.config.ts'] }],
