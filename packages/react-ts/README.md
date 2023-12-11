@@ -21,7 +21,7 @@
 
 ## Prerequisites
 
-- node >=16
+- node >=18
 
 ## Install
 

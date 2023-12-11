@@ -1,6 +1,6 @@
 {
   "name": "@codebuddy/eslint-config-react-native-ts",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Common ESLINT rules for React Native used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "react-native"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README",
   "dependencies": {
-    "@codebuddy/eslint-config-react-ts": "workspace:^1.0.4",
+    "@codebuddy/eslint-config-react-ts": "workspace:^",
     "@react-native-community/eslint-config": "^3.2.0",
-    "eslint-plugin-react-native": "^4.0.0"
+    "eslint-plugin-react-native": "^4.1.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=5.48.1",
-    "@typescript-eslint/parser": ">=5.48.1",
+    "@typescript-eslint/eslint-plugin": ">=6.13.2",
+    "@typescript-eslint/parser": ">=6.13.2",
     "eslint": ">=8"
   }
 }
