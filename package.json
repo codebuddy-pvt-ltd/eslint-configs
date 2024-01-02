@@ -1,6 +1,6 @@
 {
   "name": "codebuddy-eslint-configs",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Common eslint rules used within Codebuddy",
   "license": "MIT",
   "author": {
