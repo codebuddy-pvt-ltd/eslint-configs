@@ -1,12 +1,12 @@
 <h1 align="center">Welcome to eslint-configs 👋</h1>
 
-> Common eslint rules for different projects used within Codebuddy
+> Common ESLint rules for different projects used within Codebuddy
 
 ### 🏠 [Homepage](https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README)
 
 ## Prerequisites
 
-- node >=16
+- node >=18
 
 ## Usage
 

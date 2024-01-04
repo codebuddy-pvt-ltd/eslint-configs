@@ -15,7 +15,7 @@
   </a>
 </p>
 
-> Common ESLint rules for Next used in Codebuddy
+> Common ESLint rules for Next, TypeScript used in Codebuddy
 
 ### 🏠 [Homepage](https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README)
 
