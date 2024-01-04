@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
+    'plugin:react-hooks/recommended',
     '@codebuddy/eslint-config-react',
   ],
   parser: '@typescript-eslint/parser',
@@ -12,7 +13,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint'],
   overrides: [
     {
       files: ['*.stories.@(ts|tsx|js|jsx|mjs|cjs)'],
@@ -43,6 +44,7 @@ module.exports = {
     },
   ],
   rules: {
+    'react-hooks/exhaustive-deps': 'off',
     '@typescript-eslint/no-explicit-any': 2,
     '@typescript-eslint/no-empty-interface': 'off',
     'no-unused-vars': 'off',

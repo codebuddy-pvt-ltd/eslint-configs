@@ -1,6 +1,6 @@
 {
   "name": "@codebuddy/eslint-config-base",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Common JS ESLint rules used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
@@ -15,9 +15,8 @@
   "peerDependencies": {
     "eslint": ">=8",
     "eslint-config-airbnb": ">=19.0.4",
-    "eslint-config-prettier": ">=9.1.0",
-    "eslint-plugin-import": ">=2.29.0",
-    "eslint-plugin-prettier": ">=5.0.1",
+    "eslint-plugin-import": ">=2.29.1",
+    "eslint-plugin-prettier": ">=5.1.2",
     "eslint-plugin-promise": ">=6.1.1"
   },
   "engines": {
@@ -30,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git/issues"
   },
-  "homepage": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README"
+  "homepage": "https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README",
+  "dependencies": {
+    "eslint-config-prettier": ">=9.1.0"
+  }
 }

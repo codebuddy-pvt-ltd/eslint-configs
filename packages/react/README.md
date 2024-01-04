@@ -15,13 +15,13 @@
   </a>
 </p>
 
-> Common ESLint rules for React with Vite used in Codebuddy
+> Common JS ESLint rules for React with Vite used in Codebuddy
 
 ### 🏠 [Homepage](https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README)
 
 ## Prerequisites
 
-- node >=16
+- node >=18
 
 ## Install
 

@@ -15,7 +15,7 @@
   </a>
 </p>
 
-> Common ESLINT rules for React, TypeScript and Vite used in Codebuddy
+> Common ESLint rules for React, TypeScript and Vite used in Codebuddy
 
 ### 🏠 [Homepage](https://github.com/codebuddy-pvt-ltd/eslint-configs.git#README)
 
