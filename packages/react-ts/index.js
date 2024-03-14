@@ -3,6 +3,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'plugin:react-hooks/recommended',
+    'plugin:@tanstack/eslint-plugin-query/recommended',
     '@codebuddy/eslint-config-react',
   ],
   parser: '@typescript-eslint/parser',
@@ -13,10 +14,10 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'simple-import-sort'],
   overrides: [
     {
-      files: ['*.stories.@(ts|tsx|js|jsx|mjs|cjs)'],
+      files: ['**/*.stories.(js|jsx|mjs|ts|tsx)'],
       rules: {
         'storybook/hierarchy-separator': 'error',
         'storybook/default-exports': 'off',
@@ -44,6 +45,8 @@ module.exports = {
     },
   ],
   rules: {
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
     'react-hooks/exhaustive-deps': 'off',
     '@typescript-eslint/no-explicit-any': 2,
     '@typescript-eslint/no-empty-interface': 'off',

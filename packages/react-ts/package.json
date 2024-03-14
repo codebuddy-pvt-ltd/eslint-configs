@@ -1,6 +1,6 @@
 {
   "name": "@codebuddy/eslint-config-react-ts",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Common ESLint rules for React, TypeScript and Vite used in Codebuddy",
   "license": "MIT",
   "main": "index.js",
@@ -13,9 +13,11 @@
     "eslint-config"
   ],
   "peerDependencies": {
+    "@tanstack/eslint-plugin-query": ">=5.27.7",
     "@typescript-eslint/eslint-plugin": ">=6.13.2",
     "@typescript-eslint/parser": ">=6.13.2",
     "eslint": ">=8",
+    "eslint-plugin-simple-import-sort": ">=12.0.0",
     "eslint-plugin-react-hooks": ">=4.6.0"
   },
   "engines": {
